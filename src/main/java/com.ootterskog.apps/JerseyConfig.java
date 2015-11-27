@@ -26,7 +26,7 @@ public class JerseyConfig extends ResourceConfig {
     }
 
     private void registerEndpoints() {
-        register(ExampleResource.class);
+        register(CustomerResource.class);
     }
 
 }
